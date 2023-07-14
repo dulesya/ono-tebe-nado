@@ -12,7 +12,6 @@ footer {
   padding-top: 104px;
 }
 .header__menu {
-  height: 23px;
   margin-top: 43px;
   margin-bottom: 45px;
   border-image: initial;
@@ -390,12 +389,12 @@ footer {
 }
 .footer__social-list {
   grid-column: 3/4;
-  height: 48px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   list-style: none;
-  margin-right: 50px;
+  padding-right: 100px;
+  gap: 50px;
 }
 .footer__social-link {
   display: block;
